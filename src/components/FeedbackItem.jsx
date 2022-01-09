@@ -1,3 +1,4 @@
+import {} from 'react-icons'
 import Card from './shared/Card'
 function FeedbackItem({item}) {
     return (
