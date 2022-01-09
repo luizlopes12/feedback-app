@@ -14,8 +14,9 @@ Header.defaultProps = {
     text: 'Feedback UI'
 }
 //Impede de que o valor passado pelas props seja um tipo de dado diferente do esperado
+/*
 Header.PropTypes = {
-    text: PropTypes.string,
+    text: PropTypes.string
     //Aqui por exemplo a prop text só recebe valores em string, qualquer outro é rejeitado 
-}
+}*/
 export default Header
