@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-function FeedbackItem() {
+function FeedbackItem({rating, text}) {
     const [rating, setRating] = useState(7)
     const [text, setText] = useState('this is a example of feedback item')
     return (
