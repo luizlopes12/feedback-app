@@ -1,6 +1,5 @@
 import React from "react";
 import ProtTypes from 'prop-types'
-import FeedbackItem from "./FeedbackItem";
 
 function FeedbackStats({ feedback }) {
   //calculando a média com todos os items do array
@@ -12,8 +11,8 @@ function FeedbackStats({ feedback }) {
   avg = avg.toFixed(1).replace(/[.,]0$/, "");
   return (
     <div className="feedback-stats">
-      <h4>{feedback.length} Reviews</h4>
-      <h4>Average rating: {isNaN(avg) ? 0 : avg}</h4>
+      <h4>{feedback.length} Avaliações</h4>
+      <h4>Media: {isNaN(avg) ? 0 : avg}</h4>
     </div>
   );
 }

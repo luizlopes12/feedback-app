@@ -15,7 +15,7 @@ function App() {
     setFeedback([newFeedback, ...feedback])
   }
   const deleteFeedback = (id) => {
-    if (window.confirm("Are you sure you want to delete?")) {
+    if (window.confirm("Tem certeza que deseja excluir esse feedback?")) {
       setFeedback(feedback.filter((item) => item.id !== id));
     }
   };

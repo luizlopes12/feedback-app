@@ -35,15 +35,15 @@ function FeedbackForm({handleAdd}) {
     return (
         <Card>
             <form onSubmit={handleSubmit}>
-                <h2>How would you rate your service with us?</h2>
+                <h2>Como gostaria de avaliar o nosso produto?</h2>
                     <RatingSelect select={(rating)=> setRating(rating)}/>
                     <div className="input-group">
                         <input 
                         type="text" 
                         value={text} 
                         onChange={handleTextChange} 
-                        placeholder='Write a review'/>
-                        <Button isDisabled={btnDisabled} type="submit" version='primary'>Send</Button>
+                        placeholder='Escreva uma avaliação'/>
+                        <Button isDisabled={btnDisabled} type="submit" version='primary'>Enviar</Button>
                     </div>
                     {message&& <div className='message'>{message}</div>}
             </form>
