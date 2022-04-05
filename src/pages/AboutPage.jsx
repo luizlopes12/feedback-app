@@ -5,12 +5,12 @@ const AboutPage = () => {
   return (
     <Card>
         <div className="about">
-        <h1>About this project</h1>
-        <p>This is a React app to leave feedback for a product or service</p>
-        <p>version: 1.0.0</p>
+        <h1>Sobre esse projeto:</h1>
+        <p>Aplicação para enviar feedbacks sobre um produto ou serviço.</p>
+        <p>versão: 1.0.0</p>
         </div>
         <p>
-            <Link to='/'>Back to home</Link>
+            <Link to='/'>Voltar para a Home</Link>
         </p>
     </Card>
   )
